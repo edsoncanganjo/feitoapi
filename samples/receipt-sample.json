@@ -1,0 +1,23 @@
+{
+  "number": "RC 2026/000045",
+  "issueDate": "2026-07-02",
+  "currency": "EUR",
+  "language": "pt",
+  "seller": {
+    "name": "Loja Exemplo, Lda.",
+    "taxId": "PT500111222",
+    "addressLine1": "Praça do Comércio, 1",
+    "postalCode": "1100-148",
+    "city": "Lisboa"
+  },
+  "client": {
+    "name": "João Silva",
+    "taxId": "PT200000000"
+  },
+  "items": [
+    { "description": "Produto A", "quantity": 2, "unitPrice": 12.50, "taxRate": 23 },
+    { "description": "Produto B", "quantity": 1, "unitPrice": 40.00, "taxRate": 6 }
+  ],
+  "paymentMethod": "Multibanco",
+  "notes": "Obrigado pela sua compra!"
+}

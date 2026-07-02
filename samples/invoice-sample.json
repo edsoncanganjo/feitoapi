@@ -1,0 +1,49 @@
+{
+  "number": "FT 2026/000123",
+  "issueDate": "2026-07-02",
+  "dueDate": "2026-07-31",
+  "currency": "EUR",
+  "language": "pt",
+  "accentColor": "##00676C",
+  "seller": {
+    "name": "Edson Canganjo",
+    "taxId": "PT500000000",
+    "addressLine1": "Rua de Exemplo, 100",
+    "postalCode": "1000-001",
+    "city": "Lisboa",
+    "country": "Portugal",
+    "email": "faturacao@canganjo.pt",
+    "phone": "+351 210 000 000"
+  },
+  "client": {
+    "name": "Nome da tua empresa, Lda.",
+    "taxId": "PT510000000",
+    "addressLine1": "Avenida da Liberdade, 200",
+    "postalCode": "4000-001",
+    "city": "Porto",
+    "country": "Portugal"
+  },
+  "items": [
+    {
+      "description": "Desenvolvimento de software a medida — 10h",
+      "quantity": 10,
+      "unitPrice": 85.00,
+      "taxRate": 23
+    },
+    {
+      "description": "Licença mensal software",
+      "quantity": 3,
+      "unitPrice": 29.90,
+      "taxRate": 23,
+      "discountRate": 10
+    },
+    {
+      "description": "Formação (isenta de IVA)",
+      "quantity": 1,
+      "unitPrice": 300.00,
+      "taxRate": 0
+    }
+  ],
+  "paymentReference": "IBAN PT50 0000 0000 0000 0000 0000 0",
+  "notes": "Pagamento a 30 dias. Obrigado pela preferência."
+}

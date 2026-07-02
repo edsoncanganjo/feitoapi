@@ -1,0 +1,11 @@
+@feitoapi.api_HostAddress = http://localhost:5110
+
+GET {{feitoapi.api_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{feitoapi.api_HostAddress}}/todos/1
+Accept: application/json
+
+###

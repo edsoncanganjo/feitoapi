@@ -13,7 +13,7 @@ RUN apt-get update \
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["feitoapi.api/feitoapi.api.csproj", "feitoapi.api/"]
+COPY ["feitoapi.api.csproj", "./"]
 RUN dotnet restore "feitoapi.api/feitoapi.api.csproj"
 COPY . .
 WORKDIR "/src/feitoapi.api"

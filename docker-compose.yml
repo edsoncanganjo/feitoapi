@@ -9,7 +9,7 @@ services:
     environment:
       # --- Auth (pick ONE mode) ---
       # Standalone: comma-separated keys; callers send header  X-API-Key: <key>
-      Auth__ApiKeys: "Th1s1Smy-Pessonal-Key"
+      Auth__ApiKeys: "Th1s1Smy-Pessonal-Key" #_20260602
       # Behind RapidAPI instead: set your proxy secret and leave ApiKeys empty
       # Auth__RapidApiProxySecret: "your-rapidapi-proxy-secret"
       RateLimit__PermitPerMinute: "60"

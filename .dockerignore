@@ -23,3 +23,10 @@
 **/values.dev.yaml
 LICENSE
 README.md
+**/bin/
+**/obj/
+**/.vs/
+**/.git/
+**/*.user
+samples/
+README.md

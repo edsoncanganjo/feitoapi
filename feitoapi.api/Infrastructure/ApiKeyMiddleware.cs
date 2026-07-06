@@ -40,7 +40,7 @@ public sealed class ApiKeyMiddleware
 
         // Public endpoints: health + docs.
         if (!_enabled
-            || path.StartsWithSegments("/v1/health")
+            || path.StartsWithSegments("/api/v1/health")
             || path.StartsWithSegments("/openapi")
             || path.StartsWithSegments("/scalar")
             || path == "/")
